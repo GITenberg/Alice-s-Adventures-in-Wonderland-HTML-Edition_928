@@ -1,0 +1,31 @@
+_repo: Alice-s-Adventures-in-Wonderland-HTML-Edition_928
+alternative_title: Alice in Wonderland
+creator:
+  author:
+    agent_name: Carroll, Lewis
+    alias: Dodgson, Charles Lutwidge
+    birthdate: 1832
+    deathdate: 1898
+    gutenberg_agent_id: '7'
+    url: http://www.gutenberg.org/2009/agents/7
+    wikipedia: http://en.wikipedia.org/wiki/Lewis_Carroll
+description: ''
+gutenberg_bookshelf:
+- Best Books Ever Listings
+- Children's Literature
+gutenberg_issued: '1997-05-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '928'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PR'
+- !lcc 'PZ'
+- !lcsh 'Fantasy'
+title: 'Alice''s Adventures in Wonderland
+
+  HTML Edition'
+url: http://www.gutenberg.org/ebooks/928
