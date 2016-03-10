@@ -16,7 +16,8 @@ before_script:
 script:
 - python test.py
 - epubmaker --ebook=928 --title="Alice's Adventures in Wonderland" --make=all  928-h/928-h.htm
-- cp 928-h/928-epub.epub .
+- ls *
+- mv 928-epub.epub  Alice-s-Adventures-in-Wonderland-HTML-Edition.epub
 branches:
   only:
   - master
