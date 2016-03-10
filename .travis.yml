@@ -4,19 +4,14 @@ python:
 sudo: required
 before_install:
 - sudo apt-get install -y python-lxml libxml2-dev libxslt1-dev git tidy wget
-- pip install --use-mirrors pillow cssutils lxml docutils roman
-- pip install --use-mirrors future requests
-- wget http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz
-- tar xvfz kindlegen_linux_2.6_i386_v2_9.tar.gz
-- sudo ln -s /kindlegen /usr/local/bin/kindlegen
+- pip install pillow cssutils lxml docutils roman
+- pip install future requests
 install:
 - pip install git+git://github.com/gitenberg-dev/pg-epubmaker.git
 before_script:
 - export PATH=$PATH:/usr/local/bin
 script:
-- python test.py
 - epubmaker --ebook=928 --title="Alice's Adventures in Wonderland" --make=all  928-h/928-h.htm
-- ls *
 - mv 928-epub.epub  Alice-s-Adventures-in-Wonderland-HTML-Edition.epub
 branches:
   only:
