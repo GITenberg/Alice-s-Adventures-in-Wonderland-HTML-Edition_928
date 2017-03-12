@@ -1,6 +1,9 @@
 _repo: Alice-s-Adventures-in-Wonderland-HTML-Edition_928
-_version: 0.1.0
+_version: 0.2.0
 alternative_title: Alice in Wonderland
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Carroll, Lewis
@@ -11,6 +14,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/7
     wikipedia: http://en.wikipedia.org/wiki/Lewis_Carroll
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/928#Alice-s-Adventures-in-Wonderland-HTML-Edition
 gutenberg_bookshelf:
 - Best Books Ever Listings
 - Children's Literature
